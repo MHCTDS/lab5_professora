@@ -1,8 +1,10 @@
 # lab5_professora
 
-A implementacao atual e a que funciona melhor, embora nao use uma funcao void de barreira.
+Tem duas implementacoes, a entrega que tem duas condicoes de lock como voce pediu e o outro codigo que 'e mais simples, sempre tendo uma thread de log rodando.
 
-Eu testei dois tipos de barreiras diferentes, uma que contava o numero de threads menos o numero de thredds terminadas para saber quando desbloquear as threads(desbloqueia quando todas estiverem bloqueadas, ou seja, atingiu multiplo de 1000)
+A entrega final e o codigo entrega
+
+Eu testei dois tipos de barreiras diferentes no codigo adicional, uma que contava o numero de threads menos o numero de thredds terminadas para saber quando desbloquear as threads(desbloqueia quando todas estiverem bloqueadas, ou seja, atingiu multiplo de 1000)
 
 No outro caso a barreira2 aceitava um argumento dizendo se havia sido imprimido ou nao o valor e ajia de acordo, as threads de execucao invocavam a barreira com argumento 0 e a de log com argumento 1;
 
